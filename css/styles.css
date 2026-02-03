@@ -6,7 +6,7 @@
 /* ---------- CSS Custom Properties ---------- */
 :root {
   --primary-dark: #0a0a0a;
-  --secondary-dark: #1a1a2e;
+  --secondary-dark: #111111;
   --gold: #FEBE10;
   --gold-hover: #e5ab00;
   --gold-light: rgba(254, 190, 16, 0.15);
@@ -19,7 +19,7 @@
   --green-dark: #008a43;
   --overlay: rgba(10, 10, 10, 0.7);
   --overlay-heavy: rgba(10, 10, 10, 0.85);
-  --card-bg: #111122;
+  --card-bg: #141414;
   --card-border: rgba(254, 190, 16, 0.1);
   --card-hover-border: rgba(254, 190, 16, 0.4);
   --header-height: 80px;
@@ -125,7 +125,7 @@ h1, h2, h3, h4, h5, h6 {
   background: var(--primary-dark);
 }
 
-.section-navy {
+.section-dark {
   background: var(--secondary-dark);
 }
 
@@ -410,7 +410,7 @@ h1, h2, h3, h4, h5, h6 {
 .hero-bg {
   position: absolute;
   inset: 0;
-  background: url('../images/hero-bg.jpg') center/cover no-repeat;
+  background: url('../images/hero-action.jpg') center top/cover no-repeat;
   z-index: 0;
 }
 
@@ -421,7 +421,7 @@ h1, h2, h3, h4, h5, h6 {
   background: linear-gradient(
     135deg,
     rgba(10, 10, 10, 0.9) 0%,
-    rgba(26, 26, 46, 0.8) 50%,
+    rgba(10, 10, 10, 0.75) 50%,
     rgba(10, 10, 10, 0.85) 100%
   );
 }
@@ -1140,7 +1140,8 @@ h1, h2, h3, h4, h5, h6 {
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(135deg, var(--secondary-dark), var(--primary-dark));
+  background: url('../images/cta-bg.jpg') center/cover no-repeat;
+  filter: brightness(0.3);
   z-index: 0;
 }
 
