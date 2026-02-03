@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://saratogaspringsfc.com/sitemap.xml
+
+# Disallow admin/private paths (if any in future)
+# Disallow: /admin/

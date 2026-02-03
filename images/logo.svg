@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="shield" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FEBE10"/>
+      <stop offset="100%" style="stop-color:#d4a00a"/>
+    </linearGradient>
+    <linearGradient id="inner" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#0a0a0a"/>
+    </linearGradient>
+  </defs>
+  <!-- Shield shape -->
+  <path d="M100 10 L180 40 L180 110 Q180 160 100 190 Q20 160 20 110 L20 40 Z" fill="url(#shield)" stroke="#FEBE10" stroke-width="2"/>
+  <path d="M100 20 L170 46 L170 108 Q170 152 100 180 Q30 152 30 108 L30 46 Z" fill="url(#inner)"/>
+  <!-- Soccer ball icon -->
+  <circle cx="100" cy="85" r="28" fill="none" stroke="#FEBE10" stroke-width="2.5"/>
+  <path d="M100 57 L108 72 L100 78 L92 72 Z" fill="#FEBE10" opacity="0.8"/>
+  <path d="M128 77 L115 80 L112 72 L120 63 Z" fill="#FEBE10" opacity="0.8"/>
+  <path d="M72 77 L85 80 L88 72 L80 63 Z" fill="#FEBE10" opacity="0.8"/>
+  <path d="M120 103 L110 95 L115 85 L127 85 Z" fill="#FEBE10" opacity="0.8"/>
+  <path d="M80 103 L90 95 L85 85 L73 85 Z" fill="#FEBE10" opacity="0.8"/>
+  <!-- Club initials -->
+  <text x="100" y="142" text-anchor="middle" font-family="'Montserrat', Arial, sans-serif" font-weight="900" font-size="18" fill="#FEBE10" letter-spacing="4">SSFC</text>
+  <!-- Est year -->
+  <text x="100" y="162" text-anchor="middle" font-family="'Montserrat', Arial, sans-serif" font-weight="600" font-size="10" fill="#FEBE10" opacity="0.8" letter-spacing="2">EST. 2021</text>
+  <!-- Stars -->
+  <polygon points="100,28 102,34 108,34 103,38 105,44 100,40 95,44 97,38 92,34 98,34" fill="#FEBE10"/>
+</svg>
